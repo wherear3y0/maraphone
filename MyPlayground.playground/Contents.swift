@@ -1,1 +1,1 @@
-print("denis lox")
+//1 task 
