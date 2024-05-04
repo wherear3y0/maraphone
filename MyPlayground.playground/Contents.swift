@@ -7,3 +7,26 @@ func evenOrOdd(_ number:Int) -> String {
 func numberToString(number: Int) -> String { 
   String(number)
 }
+
+// 3
+func reverse(_ str: String) -> String {
+    return String(str.reversed())
+}
+
+
+//4
+
+func to() -> String {
+    return capitalized
+}
+// 5
+func descendingOrder(of number: Int) -> Int {
+    let digits = String(number).compactMap { Int(String($0)) }
+    let sortedDigits = digits.sorted(by: >)
+    let sortedNumber = Int(sortedDigits.map { String($0) }.joined()) ?? 0
+    return sortedNumber
+}
+
+// 6
+
+
